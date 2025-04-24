@@ -1,0 +1,9 @@
+[package]
+name = "rreboot"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+byteorder = "1.5.0"
+efivar = { version = "2.0.0", features = ["store"] }
+system_shutdown = "4.0.1"
